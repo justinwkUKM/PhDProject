@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    >
+
+    <FrameLayout
+        android:id="@+id/parentFrameLayout"
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent">
+
+        <fragment
+            android:id="@+id/beyondarFragment"
+            android:name="com.beyondar.android.fragment.BeyondarFragmentSupport"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </FrameLayout>
+
+    <view
+        class="com.example.myxlab.gdktry.TouchpadView"
+        android:id="@+id/touchpad"
+        android:background="@color/touchpad_background_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alpha="0.5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true">
+        <requestFocus />
+    </view>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/pushValue"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/pointer"
+        android:src="@drawable/pointerselect"
+        />
+</RelativeLayout>

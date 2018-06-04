@@ -1,0 +1,38 @@
+<resources>
+
+    <string name="app_name">Nav</string>
+    <string name="title_activity_main">Shopping List</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="add_item">Add Item</string>
+    <string name="remove_item">Remove item</string>
+    <string name="title_activity_live_card_service">Hello World LiveCard</string>
+    <string name="action_stop">Stop</string>
+    <string name="nearby_poi">Nearby POI</string>
+    <string name="action_start">Start</string>
+    <string name="action_happy">Happy</string>
+
+    <string name="start">Start</string>
+    <string name="set">Set</string>
+
+    <!-- Hint text shown when the timer is finished. [CHAR LIMIT=50] -->
+    <string name="timer_finished">Timer finished</string>
+    <!-- When setting the timer value, hint text for swiping. [CHAR LIMIT=50] -->
+    <string name="swipe_to_set_timer">Swipe forward to set the timer</string>
+
+
+    <!-- Used by the discrete and continuous touchpad gesture demos. -->
+    <string name="last_gesture">Last gesture</string>
+    <string name="finger_count">Finger count</string>
+    <string name="scrolling">Scroll type</string>
+    <string name="displacement">Displacement</string>
+    <string name="delta">Delta</string>
+    <string name="velocity">Velocity</string>
+    <string name="scroll_one_finger">One-finger</string>
+    <string name="scroll_two_finger">Two-finger</string>
+    <string name="pixel_distance_units">%1$.0f px</string>
+    <string name="pixel_velocity_units">%1$.3f px/s</string>
+    <string name="swipe_down_again">Swipe down again to go back</string>
+    <string name="api_url">https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=2.194403,%20102.248696&amp;radius=500&amp;type=place_of_worship|museum|art_gallery|church&amp;key=AIzaSyA6pErTo0yebQ-Wl9Pe9Iv4NU6tsVtwwW8</string>
+
+</resources>
